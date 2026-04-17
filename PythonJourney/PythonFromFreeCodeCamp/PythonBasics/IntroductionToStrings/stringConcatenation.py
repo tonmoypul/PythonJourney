@@ -26,3 +26,5 @@ print(nameAgeInterpolation)
 num1 = 36
 num2 = 56
 print(F"The sum of {num1} and {num2} is 92.")
+
+print('Hello World!')
