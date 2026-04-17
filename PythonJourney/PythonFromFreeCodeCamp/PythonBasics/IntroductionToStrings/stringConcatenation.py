@@ -20,3 +20,9 @@ name_and_age += str(age)
 print(name_and_age)
 
 #String Interpolation
+nameAgeInterpolation = f'My name is {name}. And I am {age} years old.'
+print(nameAgeInterpolation)
+
+num1 = 36
+num2 = 56
+print(F"The sum of {num1} and {num2} is 92.")
