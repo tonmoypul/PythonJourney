@@ -37,3 +37,27 @@ print(isinstance(myIntegerVar, int))
 help = 999
 print(help, type(help), isinstance(help, int))
 print(help, ':call here')
+
+
+
+print('Recap of everything')
+myInt = 23
+print('Int: ' , myInt, type(myInt))
+myFloat = 11.8
+print('Float: ', myFloat, type(myFloat))
+myStr = 'recap'
+print('Str: ', myStr, type(myStr))
+myBool = False
+print('Bool: ', myBool, type(myBool))
+mySet = {8, 8.8, 'failed'}
+print('Set: ', mySet, type(mySet))
+myDict = {'name': 'Failed', 'quality': '∅'}
+print('Dict: ', myDict, type(myDict))
+myTuple = ('Tonmoy', 0, 100.0)
+print('Tuple: ', myTuple, type(myTuple))
+myRange = range(78)
+print('Range: ', myRange, type(myRange))
+myList = [3.54, 3.53, '?']
+print('List: ', myList, type(myList))
+myNone = None
+print('None type: ', myNone, type(myNone))
