@@ -38,16 +38,13 @@ def sumOfOddNumbers(startingNumber1, endingNumber1) :
   total = 0
   if j%2==0:
     j = j + 1
-    while j<=endingNumber1:
-      total = total + j
-      j = j +2
-  else:
-    while j<=endingNumber1:
-      total = total + j
-      j = j+ 2
+  while j<=endingNumber1:
+    total = total + j
+    j = j +2
+  
   return total
 
-print(sumOfOddNumbers(34, 67))
+print("The sum of odd numbers is = ", sumOfOddNumbers(34, 67))
 
 #Sum of a series of even numbers
 print('Sum of a series of even numbers')
