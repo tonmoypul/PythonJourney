@@ -8,7 +8,7 @@ print(newStr[2:5])
 print(newStr[2:])
 print(newStr[:4])
 print(newStr[:])
-print(newStr[2:6:3])
+print(newStr[2:6:2])
 
 #Reversing a string using slice method
 myStr = 'Hello World'

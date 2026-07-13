@@ -24,9 +24,11 @@ print(newStr.replace('the', 'his'))
 
 newStr = newStr.replace('the', 'his')
 
+
 #Split method
 splitedStr = newStr.split()
 print(splitedStr)
+print(type(splitedStr))
 print(newStr.split('.'))
 
 #Join method on iterables
@@ -41,7 +43,7 @@ print(startsWithPrefix) #True
 endsWithSuffix = newStr.endswith('neighbour')
 print(endsWithSuffix) #False
 
-#finding index of a substring and number of times a substring jas appeared on a string
+#finding index of a substring and number of times a substring has appeared on a string
 print(newStr.find('hit'))
 print(newStr.count('the'))
 
