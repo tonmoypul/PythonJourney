@@ -70,5 +70,16 @@ def primeNumber(theGivenNum):
   return 'The number is prime'
 print(primeNumber(73))
 
+
+#Once again Finding prime number 
+def primeOnceMore(theNumWeNeed):
+  if theNumWeNeed<=1:
+    return "The number is not prime"
+  root = theNumWeNeed**0.5
+  for divisors in range(2, int(root)+1):
+    if theNumWeNeed%divisors== 0:
+      return "The number is not prime"
+    return "The number is prime"
+print(primeOnceMore(629297478290))
 #Fibonacci sequence 
 #def fibonacciSequenceSum(theNumberOfFibonacciCharectersToSum)
