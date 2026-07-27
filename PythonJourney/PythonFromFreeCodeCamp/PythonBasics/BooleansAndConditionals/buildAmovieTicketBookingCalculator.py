@@ -21,3 +21,26 @@ else:
   print("User does not qualify for membership dicount")
 print,("Discount:", discount)
 
+extraCharges = 0
+if isWeekend or showTime == "Evening":
+  extraCharges = 2
+  print("Extra charges will be applied")
+else:
+  print("No extra charges will be applied")
+print("Extra charges:", extraCharges)
+
+if age >=21 or age>=18 and (showTime != "Evening" or isMember):
+  print("Ticket booking condition satisfied")
+  
+  serviceCharges = 0
+  if seatType == "Premium":
+    serviceCharges = 5
+  elif seatType == "Gold":
+    serviceCharges = 3
+  else:
+    serviceCharges = 1
+  print("Service charges:", serviceCharges)
+  finalPrice = basePrice + extraCharges + serviceCharges - discount
+  print("Final price of ticket:", finalPrice)
+else:
+  print("Ticket booking condition not satisfied")
