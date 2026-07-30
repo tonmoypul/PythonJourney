@@ -19,7 +19,7 @@ def encrypt(text, shift):
 def decrypt(text, shift):
   return caesar(text, shift, False)
 
-encrypted_text = encrypt("freeCodeCamp", 3)
+encrypted_text = encrypt("I Love You", 3)
 print("Encrypted text:", encrypted_text)
 
 encrypted_text_new = "Pbhentr vf sbhaq va hayvxryl cynprf."
